@@ -1,3 +1,3 @@
-(1)
-(2)
+(1) log-normal-1 is 393393 PSS
+(2) log-normal-2 is 393386 PSS
 (3)
