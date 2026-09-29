@@ -1,3 +1,3 @@
 (1) log-normal-1 is 393393 PSS - to get bytes we need to take PSS x 1,024 which in our cases equals to 402,824,432 bytes.
 (2) log-normal-2 is 393386 PSS - same logic applies here we take 393386 x 1,024 = 402,827,264 bytes
-(3)393386
+(3) What I notice is that the mmap finished a lot faster than the normal runs. Looking at the graph, mmap finished around 15 seconds and the normal run finished around 150 seconds. Also, mmap reached around 590,000 KB while the normal run hit about 400,000 KB. 

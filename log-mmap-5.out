@@ -1,0 +1,795 @@
+%CPU %MEM ARGS Sat Sep 26 20:14:14 UTC 2026
+ 0.0  0.1 ./cli mmap images/4096x4096   1 12628
+ 0.0  0.0 grep --color=auto ./cli       1  2288
+ 0.0  0.1 ./cli mmap images/4096x4096   1  8988
+25.0  0.3 ./cli mmap images/4096x4096   1 24852
+33.3  0.3 ./cli mmap images/4096x4096   0 29736
+  PID User     Command                         Swap      USS      PSS      RSS 
+17309 codespace /usr/bin/python3 /usr/bin/s        0    12048    12243    14588 
+17307 codespace ./cli mmap images/4096x4096        0    91056   111537   187824 
+17313 codespace ./cli mmap images/4096x4096        0   111064   134322   227320 
+17319 codespace ./cli mmap images/4096x4096        0   128544   155259   263148 
+17317 codespace ./cli mmap images/4096x4096        0   142576   178431   293224 
+17310 codespace ./cli mmap images/4096x4096        0   194276   223586   318044 
+%CPU %MEM ARGS Sat Sep 26 20:14:15 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2376
+27.2  2.4 ./cli mmap images/4096x4096   1 199208
+27.8  2.4 ./cli mmap images/4096x4096   0 199836
+28.0  2.4 ./cli mmap images/4096x4096   1 199224
+28.9  2.4 ./cli mmap images/4096x4096   1 199720
+37.1  2.4 ./cli mmap images/4096x4096   0 202304
+  PID User     Command                         Swap      USS      PSS      RSS 
+17323 codespace /usr/bin/python3 /usr/bin/s        0    12064    12238    14624 
+17313 codespace ./cli mmap images/4096x4096        0   201472   201511   202784 
+17317 codespace ./cli mmap images/4096x4096        0   201872   201906   203144 
+17319 codespace ./cli mmap images/4096x4096        0   202012   202048   203304 
+17307 codespace ./cli mmap images/4096x4096        0   202040   202074   203256 
+17310 codespace ./cli mmap images/4096x4096        0   205056   205090   206328 
+%CPU %MEM ARGS Sat Sep 26 20:14:15 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2172
+26.5  2.5 ./cli mmap images/4096x4096   1 206460
+26.8  2.5 ./cli mmap images/4096x4096   1 206524
+27.7  2.5 ./cli mmap images/4096x4096   0 206976
+27.8  2.5 ./cli mmap images/4096x4096   1 207188
+32.8  2.5 ./cli mmap images/4096x4096   1 210396
+  PID User     Command                         Swap      USS      PSS      RSS 
+17351 codespace /usr/bin/python3 /usr/bin/s        0    12064    12250    14572 
+17313 codespace ./cli mmap images/4096x4096        0   208000   208039   209312 
+17307 codespace ./cli mmap images/4096x4096        0   208032   208066   209248 
+17319 codespace ./cli mmap images/4096x4096        0   208604   208642   209896 
+17317 codespace ./cli mmap images/4096x4096        0   208968   209003   210240 
+17310 codespace ./cli mmap images/4096x4096        0   211564   211599   212836 
+%CPU %MEM ARGS Sat Sep 26 20:14:16 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2344
+27.6  2.6 ./cli mmap images/4096x4096   0 214036
+28.7  2.6 ./cli mmap images/4096x4096   0 214244
+29.7  2.6 ./cli mmap images/4096x4096   1 215300
+29.9  2.6 ./cli mmap images/4096x4096   1 215476
+32.3  2.6 ./cli mmap images/4096x4096   0 217280
+  PID User     Command                         Swap      USS      PSS      RSS 
+17356 codespace /usr/bin/python3 /usr/bin/s        0    12072    12259    14528 
+17307 codespace ./cli mmap images/4096x4096        0   215356   215394   216572 
+17317 codespace ./cli mmap images/4096x4096        0   216096   216136   217368 
+17313 codespace ./cli mmap images/4096x4096        0   216916   216959   218228 
+17319 codespace ./cli mmap images/4096x4096        0   217288   217330   218580 
+17310 codespace ./cli mmap images/4096x4096        0   219504   219544   220776 
+%CPU %MEM ARGS Sat Sep 26 20:14:16 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2212
+27.6  2.7 ./cli mmap images/4096x4096   0 220640
+28.3  2.7 ./cli mmap images/4096x4096   0 221036
+28.5  2.7 ./cli mmap images/4096x4096   0 221892
+30.6  2.7 ./cli mmap images/4096x4096   1 223508
+31.8  2.7 ./cli mmap images/4096x4096   1 225032
+  PID User     Command                         Swap      USS      PSS      RSS 
+17378 codespace /usr/bin/python3 /usr/bin/s        0    12064    12254    14548 
+17307 codespace ./cli mmap images/4096x4096        0   222296   222334   223512 
+17317 codespace ./cli mmap images/4096x4096        0   223276   223316   224548 
+17313 codespace ./cli mmap images/4096x4096        0   225004   225047   226316 
+17319 codespace ./cli mmap images/4096x4096        0   226456   226498   227748 
+17310 codespace ./cli mmap images/4096x4096        0   227292   227332   228564 
+%CPU %MEM ARGS Sat Sep 26 20:14:17 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2164
+27.6  2.8 ./cli mmap images/4096x4096   1 228156
+28.1  2.8 ./cli mmap images/4096x4096   1 228412
+30.0  2.8 ./cli mmap images/4096x4096   1 231380
+31.7  2.8 ./cli mmap images/4096x4096   0 233516
+33.1  2.8 ./cli mmap images/4096x4096   0 234996
+  PID User     Command                         Swap      USS      PSS      RSS 
+17384 codespace /usr/bin/python3 /usr/bin/s        0    12064    12247    14480 
+17307 codespace ./cli mmap images/4096x4096        0   229836   229874   231052 
+17317 codespace ./cli mmap images/4096x4096        0   230820   230860   232092 
+17319 codespace ./cli mmap images/4096x4096        0   233876   233918   235168 
+17313 codespace ./cli mmap images/4096x4096        0   235904   235947   237216 
+17310 codespace ./cli mmap images/4096x4096        0   237208   237248   238480 
+%CPU %MEM ARGS Sat Sep 26 20:14:18 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2152
+28.3  2.8 ./cli mmap images/4096x4096   1 235676
+29.3  2.9 ./cli mmap images/4096x4096   0 236912
+30.4  2.9 ./cli mmap images/4096x4096   1 238868
+31.8  2.9 ./cli mmap images/4096x4096   1 241380
+33.8  2.9 ./cli mmap images/4096x4096   0 243724
+  PID User     Command                         Swap      USS      PSS      RSS 
+17389 codespace /usr/bin/python3 /usr/bin/s        0    12068    12252    14484 
+17307 codespace ./cli mmap images/4096x4096        0   237304   237342   238520 
+17317 codespace ./cli mmap images/4096x4096        0   238876   238916   240148 
+17319 codespace ./cli mmap images/4096x4096        0   241360   241402   242652 
+17313 codespace ./cli mmap images/4096x4096        0   243332   243375   244644 
+17310 codespace ./cli mmap images/4096x4096        0   245276   245316   246548 
+%CPU %MEM ARGS Sat Sep 26 20:14:18 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2344
+28.5  2.9 ./cli mmap images/4096x4096   0 242832
+29.5  3.0 ./cli mmap images/4096x4096   1 244188
+30.3  3.0 ./cli mmap images/4096x4096   0 245916
+31.7  3.0 ./cli mmap images/4096x4096   0 248416
+33.2  3.0 ./cli mmap images/4096x4096   1 251016
+  PID User     Command                         Swap      USS      PSS      RSS 
+17395 codespace /usr/bin/python3 /usr/bin/s        0    12068    12264    14528 
+17307 codespace ./cli mmap images/4096x4096        0   244148   244186   245364 
+17317 codespace ./cli mmap images/4096x4096        0   247096   247136   248368 
+17319 codespace ./cli mmap images/4096x4096        0   248292   248334   249584 
+17313 codespace ./cli mmap images/4096x4096        0   250708   250751   252020 
+17310 codespace ./cli mmap images/4096x4096        0   252524   252564   253796 
+%CPU %MEM ARGS Sat Sep 26 20:14:19 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2164
+28.6  3.0 ./cli mmap images/4096x4096   1 249972
+30.4  3.1 ./cli mmap images/4096x4096   1 253028
+30.6  3.1 ./cli mmap images/4096x4096   0 254036
+32.1  3.1 ./cli mmap images/4096x4096   1 257216
+33.4  3.1 ./cli mmap images/4096x4096   0 259124
+  PID User     Command                         Swap      USS      PSS      RSS 
+17400 codespace /usr/bin/python3 /usr/bin/s        0    12080    12277    14596 
+17307 codespace ./cli mmap images/4096x4096        0   251556   251594   252772 
+17317 codespace ./cli mmap images/4096x4096        0   255456   255496   256728 
+17319 codespace ./cli mmap images/4096x4096        0   256312   256354   257604 
+17313 codespace ./cli mmap images/4096x4096        0   259224   259267   260536 
+17310 codespace ./cli mmap images/4096x4096        0   260660   260700   261932 
+%CPU %MEM ARGS Sat Sep 26 20:14:19 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2192
+29.1  3.1 ./cli mmap images/4096x4096   0 257792
+30.1  3.1 ./cli mmap images/4096x4096   1 259852
+30.4  3.1 ./cli mmap images/4096x4096   1 260208
+31.7  3.2 ./cli mmap images/4096x4096   1 264072
+32.7  3.2 ./cli mmap images/4096x4096   1 265228
+  PID User     Command                         Swap      USS      PSS      RSS 
+17410 codespace /usr/bin/python3 /usr/bin/s        0    12060    12250    14524 
+17307 codespace ./cli mmap images/4096x4096        0   259236   259274   260452 
+17317 codespace ./cli mmap images/4096x4096        0   260832   260872   262104 
+17319 codespace ./cli mmap images/4096x4096        0   261284   261326   262576 
+17313 codespace ./cli mmap images/4096x4096        0   264840   264883   266152 
+17310 codespace ./cli mmap images/4096x4096        0   265788   265828   267060 
+%CPU %MEM ARGS Sat Sep 26 20:14:20 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2196
+30.0  3.2 ./cli mmap images/4096x4096   1 265400
+30.0  3.2 ./cli mmap images/4096x4096   1 265704
+30.1  3.2 ./cli mmap images/4096x4096   0 266364
+31.4  3.3 ./cli mmap images/4096x4096   0 269672
+32.0  3.3 ./cli mmap images/4096x4096   1 270576
+  PID User     Command                         Swap      USS      PSS      RSS 
+17431 codespace /usr/bin/python3 /usr/bin/s        0    12072    12261    14632 
+17317 codespace ./cli mmap images/4096x4096        0   267448   267483   268720 
+17307 codespace ./cli mmap images/4096x4096        0   268224   268258   269440 
+17319 codespace ./cli mmap images/4096x4096        0   268384   268422   269676 
+17313 codespace ./cli mmap images/4096x4096        0   271996   272035   273308 
+17310 codespace ./cli mmap images/4096x4096        0   272532   272567   273804 
+%CPU %MEM ARGS Sat Sep 26 20:14:21 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2180
+29.5  3.3 ./cli mmap images/4096x4096   1 273284
+29.5  3.3 ./cli mmap images/4096x4096   0 273396
+29.8  3.3 ./cli mmap images/4096x4096   0 274332
+31.2  3.4 ./cli mmap images/4096x4096   0 278396
+31.5  3.4 ./cli mmap images/4096x4096   0 278820
+  PID User     Command                         Swap      USS      PSS      RSS 
+17450 codespace /usr/bin/python3 /usr/bin/s        0    12068    12252    14484 
+17319 codespace ./cli mmap images/4096x4096        0   275012   275054   276304 
+17307 codespace ./cli mmap images/4096x4096        0   275096   275130   276312 
+17317 codespace ./cli mmap images/4096x4096        0   277280   277320   278552 
+17313 codespace ./cli mmap images/4096x4096        0   279660   279699   280972 
+17310 codespace ./cli mmap images/4096x4096        0   279860   279896   281132 
+%CPU %MEM ARGS Sat Sep 26 20:14:21 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2208
+29.1  3.4 ./cli mmap images/4096x4096   0 279476
+29.5  3.4 ./cli mmap images/4096x4096   1 280868
+30.7  3.4 ./cli mmap images/4096x4096   0 284440
+31.2  3.5 ./cli mmap images/4096x4096   0 285324
+31.2  3.5 ./cli mmap images/4096x4096   1 285672
+  PID User     Command                         Swap      USS      PSS      RSS 
+17472 codespace /usr/bin/python3 /usr/bin/s        0    12068    12252    14484 
+17319 codespace ./cli mmap images/4096x4096        0   283864   283906   285156 
+17307 codespace ./cli mmap images/4096x4096        0   285660   285698   286876 
+17310 codespace ./cli mmap images/4096x4096        0   287256   287296   288528 
+17313 codespace ./cli mmap images/4096x4096        0   288244   288287   289556 
+17317 codespace ./cli mmap images/4096x4096        0   289100   289140   290372 
+%CPU %MEM ARGS Sat Sep 26 20:14:22 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2156
+29.5  3.5 ./cli mmap images/4096x4096   0 289824
+30.3  3.5 ./cli mmap images/4096x4096   0 292664
+30.5  3.6 ./cli mmap images/4096x4096   1 293156
+30.8  3.6 ./cli mmap images/4096x4096   0 294864
+31.1  3.6 ./cli mmap images/4096x4096   1 294808
+  PID User     Command                         Swap      USS      PSS      RSS 
+17477 codespace /usr/bin/python3 /usr/bin/s        0    12068    12255    14524 
+17319 codespace ./cli mmap images/4096x4096        0   292408   292450   293700 
+17307 codespace ./cli mmap images/4096x4096        0   293972   294010   295188 
+17310 codespace ./cli mmap images/4096x4096        0   294948   294988   296220 
+17313 codespace ./cli mmap images/4096x4096        0   296844   296887   298156 
+17317 codespace ./cli mmap images/4096x4096        0   297128   297168   298400 
+%CPU %MEM ARGS Sat Sep 26 20:14:23 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2180
+29.6  3.6 ./cli mmap images/4096x4096   0 297744
+29.7  3.6 ./cli mmap images/4096x4096   1 299004
+30.4  3.7 ./cli mmap images/4096x4096   1 301516
+30.6  3.7 ./cli mmap images/4096x4096   0 301168
+30.7  3.7 ./cli mmap images/4096x4096   1 301428
+  PID User     Command                         Swap      USS      PSS      RSS 
+17495 codespace /usr/bin/python3 /usr/bin/s        0    12112    12315    14668 
+17307 codespace ./cli mmap images/4096x4096        0   300584   300622   301800 
+17319 codespace ./cli mmap images/4096x4096        0   301552   301594   302844 
+17313 codespace ./cli mmap images/4096x4096        0   303664   303707   304976 
+17317 codespace ./cli mmap images/4096x4096        0   303912   303952   305184 
+17310 codespace ./cli mmap images/4096x4096        0   304144   304184   305416 
+%CPU %MEM ARGS Sat Sep 26 20:14:23 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2248
+29.7  3.7 ./cli mmap images/4096x4096   1 306844
+30.1  3.7 ./cli mmap images/4096x4096   0 307796
+30.3  3.8 ./cli mmap images/4096x4096   1 309428
+30.5  3.8 ./cli mmap images/4096x4096   1 309348
+31.1  3.8 ./cli mmap images/4096x4096   0 311244
+  PID User     Command                         Swap      USS      PSS      RSS 
+17507 codespace /usr/bin/python3 /usr/bin/s        0    12064    12251    14480 
+17307 codespace ./cli mmap images/4096x4096        0   308496   308534   309712 
+17319 codespace ./cli mmap images/4096x4096        0   310484   310526   311776 
+17313 codespace ./cli mmap images/4096x4096        0   311644   311687   312956 
+17317 codespace ./cli mmap images/4096x4096        0   311816   311856   313088 
+17310 codespace ./cli mmap images/4096x4096        0   313196   313236   314468 
+%CPU %MEM ARGS Sat Sep 26 20:14:24 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2156
+29.8  3.8 ./cli mmap images/4096x4096   1 314800
+30.4  3.8 ./cli mmap images/4096x4096   0 316328
+30.6  3.9 ./cli mmap images/4096x4096   1 317288
+30.7  3.9 ./cli mmap images/4096x4096   0 317996
+31.1  3.9 ./cli mmap images/4096x4096   1 318856
+  PID User     Command                         Swap      USS      PSS      RSS 
+17512 codespace /usr/bin/python3 /usr/bin/s        0    12064    12256    14512 
+17307 codespace ./cli mmap images/4096x4096        0   316452   316490   317668 
+17319 codespace ./cli mmap images/4096x4096        0   318992   319034   320284 
+17317 codespace ./cli mmap images/4096x4096        0   319848   319888   321120 
+17313 codespace ./cli mmap images/4096x4096        0   320028   320071   321340 
+17310 codespace ./cli mmap images/4096x4096        0   320792   320832   322064 
+%CPU %MEM ARGS Sat Sep 26 20:14:25 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2292
+30.1  3.9 ./cli mmap images/4096x4096   1 323192
+30.6  3.9 ./cli mmap images/4096x4096   0 325164
+30.6  3.9 ./cli mmap images/4096x4096   0 324728
+30.8  4.0 ./cli mmap images/4096x4096   1 326384
+31.2  4.0 ./cli mmap images/4096x4096   0 327120
+  PID User     Command                         Swap      USS      PSS      RSS 
+17518 codespace /usr/bin/python3 /usr/bin/s        0    12064    12254    14548 
+17307 codespace ./cli mmap images/4096x4096        0   325908   325946   327124 
+17317 codespace ./cli mmap images/4096x4096        0   327700   327740   328972 
+17319 codespace ./cli mmap images/4096x4096        0   328436   328478   329728 
+17313 codespace ./cli mmap images/4096x4096        0   328832   328875   330144 
+17310 codespace ./cli mmap images/4096x4096        0   329104   329144   330376 
+%CPU %MEM ARGS Sat Sep 26 20:14:25 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2172
+30.3  4.0 ./cli mmap images/4096x4096   1 332072
+30.8  4.1 ./cli mmap images/4096x4096   1 334360
+30.8  4.0 ./cli mmap images/4096x4096   1 333284
+30.9  4.1 ./cli mmap images/4096x4096   0 334084
+31.5  4.1 ./cli mmap images/4096x4096   0 336140
+  PID User     Command                         Swap      USS      PSS      RSS 
+17524 codespace /usr/bin/python3 /usr/bin/s        0    12064    12253    14536 
+17307 codespace ./cli mmap images/4096x4096        0   333820   333858   335036 
+17313 codespace ./cli mmap images/4096x4096        0   336904   336947   338216 
+17317 codespace ./cli mmap images/4096x4096        0   337248   337288   338520 
+17310 codespace ./cli mmap images/4096x4096        0   337992   338032   339264 
+17319 codespace ./cli mmap images/4096x4096        0   338648   338690   339940 
+%CPU %MEM ARGS Sat Sep 26 20:14:26 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2212
+30.1  4.1 ./cli mmap images/4096x4096   0 339784
+30.7  4.2 ./cli mmap images/4096x4096   0 342648
+31.0  4.2 ./cli mmap images/4096x4096   1 343372
+31.2  4.2 ./cli mmap images/4096x4096   1 344320
+31.2  4.2 ./cli mmap images/4096x4096   0 343952
+  PID User     Command                         Swap      USS      PSS      RSS 
+17529 codespace /usr/bin/python3 /usr/bin/s        0    12068    12251    14484 
+17307 codespace ./cli mmap images/4096x4096        0   341296   341332   342512 
+17313 codespace ./cli mmap images/4096x4096        0   345160   345203   346472 
+17310 codespace ./cli mmap images/4096x4096        0   345772   345810   347044 
+17317 codespace ./cli mmap images/4096x4096        0   346640   346680   347912 
+17319 codespace ./cli mmap images/4096x4096        0   347984   348026   349276 
+%CPU %MEM ARGS Sat Sep 26 20:14:27 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2308
+30.2  4.2 ./cli mmap images/4096x4096   0 348960
+30.4  4.3 ./cli mmap images/4096x4096   1 350176
+30.8  4.3 ./cli mmap images/4096x4096   1 351516
+30.9  4.3 ./cli mmap images/4096x4096   1 351096
+31.7  4.3 ./cli mmap images/4096x4096   0 355540
+  PID User     Command                         Swap      USS      PSS      RSS 
+17541 codespace /usr/bin/python3 /usr/bin/s        0    12064    12231    14520 
+17313 codespace ./cli mmap images/4096x4096        0   352512   352555   353824 
+17307 codespace ./cli mmap images/4096x4096        0   353040   353078   354256 
+17310 codespace ./cli mmap images/4096x4096        0   353072   353112   354344 
+17317 codespace ./cli mmap images/4096x4096        0   354124   354164   355396 
+17319 codespace ./cli mmap images/4096x4096        0   361200   361238   362492 
+%CPU %MEM ARGS Sat Sep 26 20:14:27 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2308
+30.3  4.4 ./cli mmap images/4096x4096   1 358428
+30.5  4.4 ./cli mmap images/4096x4096   1 359560
+30.6  4.4 ./cli mmap images/4096x4096   0 360024
+30.6  4.4 ./cli mmap images/4096x4096   1 359436
+31.9  4.5 ./cli mmap images/4096x4096   0 366500
+  PID User     Command                         Swap      USS      PSS      RSS 
+17554 codespace /usr/bin/python3 /usr/bin/s        0    12060    12250    14524 
+17313 codespace ./cli mmap images/4096x4096        0   360912   360955   362224 
+17307 codespace ./cli mmap images/4096x4096        0   361528   361566   362744 
+17310 codespace ./cli mmap images/4096x4096        0   361616   361656   362888 
+17317 codespace ./cli mmap images/4096x4096        0   362724   362764   363996 
+17319 codespace ./cli mmap images/4096x4096        0   369512   369554   370804 
+%CPU %MEM ARGS Sat Sep 26 20:14:28 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2184
+30.3  4.5 ./cli mmap images/4096x4096   0 367472
+30.4  4.5 ./cli mmap images/4096x4096   1 367936
+30.6  4.5 ./cli mmap images/4096x4096   1 367812
+30.7  4.5 ./cli mmap images/4096x4096   1 367696
+32.0  4.6 ./cli mmap images/4096x4096   0 375432
+  PID User     Command                         Swap      USS      PSS      RSS 
+17564 codespace /usr/bin/python3 /usr/bin/s        0    12064    12248    14480 
+17313 codespace ./cli mmap images/4096x4096        0   368852   368895   370164 
+17310 codespace ./cli mmap images/4096x4096        0   369520   369560   370792 
+17307 codespace ./cli mmap images/4096x4096        0   369656   369694   370872 
+17317 codespace ./cli mmap images/4096x4096        0   370084   370124   371356 
+17319 codespace ./cli mmap images/4096x4096        0   378316   378358   379608 
+%CPU %MEM ARGS Sat Sep 26 20:14:29 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2160
+30.2  4.6 ./cli mmap images/4096x4096   1 374356
+30.3  4.6 ./cli mmap images/4096x4096   1 375508
+30.5  4.6 ./cli mmap images/4096x4096   1 375416
+30.8  4.6 ./cli mmap images/4096x4096   0 376440
+32.1  4.7 ./cli mmap images/4096x4096   0 384628
+  PID User     Command                         Swap      USS      PSS      RSS 
+17570 codespace /usr/bin/python3 /usr/bin/s        0    12068    12253    14484 
+17307 codespace ./cli mmap images/4096x4096        0   377452   377490   378668 
+17317 codespace ./cli mmap images/4096x4096        0   378932   378972   380204 
+17310 codespace ./cli mmap images/4096x4096        0   379024   379064   380296 
+17313 codespace ./cli mmap images/4096x4096        0   379932   379975   381244 
+17319 codespace ./cli mmap images/4096x4096        0   387628   387670   388920 
+%CPU %MEM ARGS Sat Sep 26 20:14:29 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2132
+30.3  4.7 ./cli mmap images/4096x4096   0 383924
+30.4  4.7 ./cli mmap images/4096x4096   0 384380
+30.9  4.7 ./cli mmap images/4096x4096   1 387120
+31.0  4.7 ./cli mmap images/4096x4096   1 386512
+31.9  4.8 ./cli mmap images/4096x4096   0 392596
+  PID User     Command                         Swap      USS      PSS      RSS 
+17576 codespace /usr/bin/python3 /usr/bin/s        0    12060    12246    14476 
+17307 codespace ./cli mmap images/4096x4096        0   385632   385670   386848 
+17317 codespace ./cli mmap images/4096x4096        0   387160   387200   388432 
+17310 codespace ./cli mmap images/4096x4096        0   388520   388560   389792 
+17313 codespace ./cli mmap images/4096x4096        0   389464   389507   390776 
+17319 codespace ./cli mmap images/4096x4096        0   424808   424850   426100 
+%CPU %MEM ARGS Sat Sep 26 20:14:30 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2196
+30.4  4.8 ./cli mmap images/4096x4096   0 392928
+30.6  4.8 ./cli mmap images/4096x4096   0 393420
+30.9  4.9 ./cli mmap images/4096x4096   1 406232
+31.1  4.8 ./cli mmap images/4096x4096   1 397284
+31.8  5.9 ./cli mmap images/4096x4096   1 486632
+  PID User     Command                         Swap      USS      PSS      RSS 
+17581 codespace /usr/bin/python3 /usr/bin/s        0    12076    12264    14556 
+17317 codespace ./cli mmap images/4096x4096        0   427304   427344   428576 
+17310 codespace ./cli mmap images/4096x4096        0   436804   436844   438076 
+17313 codespace ./cli mmap images/4096x4096        0   446696   446739   448008 
+17307 codespace ./cli mmap images/4096x4096        0   448264   448302   449480 
+17319 codespace ./cli mmap images/4096x4096        0   548816   548858   550108 
+%CPU %MEM ARGS Sat Sep 26 20:14:31 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2136
+29.3  5.7 ./cli mmap images/4096x4096   0 466876
+29.5  6.2 ./cli mmap images/4096x4096   0 505064
+29.7  6.1 ./cli mmap images/4096x4096   1 499040
+29.8  6.0 ./cli mmap images/4096x4096   0 489132
+30.6  7.1 ./cli mmap images/4096x4096   0 582120
+  PID User     Command                         Swap      USS      PSS      RSS 
+17588 codespace /usr/bin/python3 /usr/bin/s        0    12064    12222    14456 
+17317 codespace ./cli mmap images/4096x4096        0   478432   478470   479704 
+17310 codespace ./cli mmap images/4096x4096        0   500972   501010   502244 
+17313 codespace ./cli mmap images/4096x4096        0   514788   514829   516100 
+17307 codespace ./cli mmap images/4096x4096        0   526060   526096   527276 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589972   591224 
+%CPU %MEM ARGS Sat Sep 26 20:14:33 UTC 2026
+27.4  5.9 ./cli mmap images/4096x4096   1 486040
+27.8  6.5 ./cli mmap images/4096x4096   0 534124
+27.8  6.2 ./cli mmap images/4096x4096   0 508856
+27.8  6.4 ./cli mmap images/4096x4096   0 524616
+28.6  7.2 ./cli mmap images/4096x4096   0 591224
+  PID User     Command                         Swap      USS      PSS      RSS 
+17600 codespace /usr/bin/python3 /usr/bin/s        0    12064    12197    14480 
+17317 codespace ./cli mmap images/4096x4096        0   545464   545496   546736 
+17310 codespace ./cli mmap images/4096x4096        0   569308   569340   570580 
+17313 codespace ./cli mmap images/4096x4096        0   579628   579663   580940 
+17307 codespace ./cli mmap images/4096x4096        0   587500   587531   588716 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589966   591224 
+%CPU %MEM ARGS Sat Sep 26 20:14:38 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2160
+21.7  6.8 ./cli mmap images/4096x4096   1 553432
+22.0  7.2 ./cli mmap images/4096x4096   0 591152
+22.1  7.2 ./cli mmap images/4096x4096   1 591244
+22.1  7.1 ./cli mmap images/4096x4096   1 582256
+22.2  7.2 ./cli mmap images/4096x4096   0 591224
+  PID User     Command                         Swap      USS      PSS      RSS 
+17646 codespace /usr/bin/python3 /usr/bin/s        0    12064    12248    14480 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:40 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2292
+20.2  7.2 ./cli mmap images/4096x4096   0 591152
+20.4  7.2 ./cli mmap images/4096x4096   1 591244
+20.4  7.2 ./cli mmap images/4096x4096   0 591204
+20.4  7.2 ./cli mmap images/4096x4096   0 591224
+20.6  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17658 codespace /usr/bin/python3 /usr/bin/s        0    12068    12255    14540 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:41 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2212
+19.9  7.2 ./cli mmap images/4096x4096   0 591152
+20.1  7.2 ./cli mmap images/4096x4096   1 591244
+20.1  7.2 ./cli mmap images/4096x4096   0 591204
+20.1  7.2 ./cli mmap images/4096x4096   0 591224
+20.3  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17663 codespace /usr/bin/python3 /usr/bin/s        0    12064    12258    14528 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:41 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2156
+19.6  7.2 ./cli mmap images/4096x4096   0 591152
+19.8  7.2 ./cli mmap images/4096x4096   1 591244
+19.8  7.2 ./cli mmap images/4096x4096   0 591204
+19.8  7.2 ./cli mmap images/4096x4096   0 591224
+20.0  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17669 codespace /usr/bin/python3 /usr/bin/s        0    12064    12249    14480 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:41 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2184
+19.3  7.2 ./cli mmap images/4096x4096   0 591152
+19.5  7.2 ./cli mmap images/4096x4096   1 591244
+19.5  7.2 ./cli mmap images/4096x4096   0 591204
+19.6  7.2 ./cli mmap images/4096x4096   0 591224
+19.7  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17674 codespace /usr/bin/python3 /usr/bin/s        0    12084    12280    14624 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:42 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2300
+19.0  7.2 ./cli mmap images/4096x4096   0 591152
+19.2  7.2 ./cli mmap images/4096x4096   1 591244
+19.2  7.2 ./cli mmap images/4096x4096   0 591204
+19.2  7.2 ./cli mmap images/4096x4096   0 591224
+19.4  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17683 codespace /usr/bin/python3 /usr/bin/s        0    12068    12256    14524 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:42 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2320
+18.8  7.2 ./cli mmap images/4096x4096   0 591152
+18.9  7.2 ./cli mmap images/4096x4096   1 591244
+18.9  7.2 ./cli mmap images/4096x4096   0 591204
+19.0  7.2 ./cli mmap images/4096x4096   0 591224
+19.1  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17691 codespace /usr/bin/python3 /usr/bin/s        0    12060    12244    14476 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:43 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2152
+18.5  7.2 ./cli mmap images/4096x4096   0 591152
+18.6  7.2 ./cli mmap images/4096x4096   1 591244
+18.7  7.2 ./cli mmap images/4096x4096   0 591204
+18.7  7.2 ./cli mmap images/4096x4096   0 591224
+18.8  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17696 codespace /usr/bin/python3 /usr/bin/s        0    12060    12250    14488 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:43 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2248
+18.2  7.2 ./cli mmap images/4096x4096   0 591152
+18.4  7.2 ./cli mmap images/4096x4096   1 591244
+18.4  7.2 ./cli mmap images/4096x4096   0 591204
+18.4  7.2 ./cli mmap images/4096x4096   0 591224
+18.6  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17702 codespace /usr/bin/python3 /usr/bin/s        0    12064    12248    14480 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:43 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2304
+18.0  7.2 ./cli mmap images/4096x4096   0 591152
+18.1  7.2 ./cli mmap images/4096x4096   1 591244
+18.1  7.2 ./cli mmap images/4096x4096   0 591204
+18.2  7.2 ./cli mmap images/4096x4096   0 591224
+18.3  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17707 codespace /usr/bin/python3 /usr/bin/s        0    12064    12256    14548 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:44 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2344
+17.8  7.2 ./cli mmap images/4096x4096   0 591152
+17.9  7.2 ./cli mmap images/4096x4096   1 591244
+17.9  7.2 ./cli mmap images/4096x4096   0 591204
+17.9  7.2 ./cli mmap images/4096x4096   0 591224
+18.1  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17712 codespace /usr/bin/python3 /usr/bin/s        0    12060    12264    14620 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:44 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2192
+17.5  7.2 ./cli mmap images/4096x4096   0 591152
+17.6  7.2 ./cli mmap images/4096x4096   1 591244
+17.6  7.2 ./cli mmap images/4096x4096   0 591204
+17.7  7.2 ./cli mmap images/4096x4096   0 591224
+17.8  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17718 codespace /usr/bin/python3 /usr/bin/s        0    12068    12244    14576 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589970   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589972   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589972   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589973   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589974   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:45 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2192
+17.2  7.2 ./cli mmap images/4096x4096   0 591152
+17.4  7.2 ./cli mmap images/4096x4096   1 591244
+17.4  7.2 ./cli mmap images/4096x4096   0 591204
+17.4  7.2 ./cli mmap images/4096x4096   0 591224
+17.5  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17729 codespace /usr/bin/python3 /usr/bin/s        0    12064    12261    14528 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:45 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2296
+17.0  7.2 ./cli mmap images/4096x4096   0 591152
+17.2  7.2 ./cli mmap images/4096x4096   1 591244
+17.2  7.2 ./cli mmap images/4096x4096   0 591204
+17.2  7.2 ./cli mmap images/4096x4096   0 591224
+17.3  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17738 codespace /usr/bin/python3 /usr/bin/s        0    12064    12259    14596 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589968   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589971   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589971   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589972   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589972   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:46 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2300
+16.8  7.2 ./cli mmap images/4096x4096   0 591152
+16.9  7.2 ./cli mmap images/4096x4096   1 591244
+16.9  7.2 ./cli mmap images/4096x4096   0 591204
+17.0  7.2 ./cli mmap images/4096x4096   0 591224
+17.1  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17743 codespace /usr/bin/python3 /usr/bin/s        0    12064    12252    14480 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:46 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2176
+16.6  7.2 ./cli mmap images/4096x4096   0 591152
+16.7  7.2 ./cli mmap images/4096x4096   1 591244
+16.7  7.2 ./cli mmap images/4096x4096   0 591204
+16.7  7.2 ./cli mmap images/4096x4096   0 591224
+16.8  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17752 codespace /usr/bin/python3 /usr/bin/s        0    12064    12245    14528 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589970   591224 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:46 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2172
+16.3  7.2 ./cli mmap images/4096x4096   0 591152
+16.5  7.2 ./cli mmap images/4096x4096   1 591244
+16.5  7.2 ./cli mmap images/4096x4096   0 591204
+16.5  7.2 ./cli mmap images/4096x4096   0 591224
+16.6  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17763 codespace /usr/bin/python3 /usr/bin/s        0    12064    12249    14480 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:47 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2212
+16.1  7.2 ./cli mmap images/4096x4096   0 591152
+16.3  7.2 ./cli mmap images/4096x4096   1 591244
+16.3  7.2 ./cli mmap images/4096x4096   0 591204
+16.3  7.2 ./cli mmap images/4096x4096   0 591224
+16.4  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17768 codespace /usr/bin/python3 /usr/bin/s        0    12068    12254    14540 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:47 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2344
+15.9  7.2 ./cli mmap images/4096x4096   0 591152
+16.1  7.2 ./cli mmap images/4096x4096   1 591244
+16.1  7.2 ./cli mmap images/4096x4096   0 591204
+16.1  7.2 ./cli mmap images/4096x4096   0 591224
+16.2  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17774 codespace /usr/bin/python3 /usr/bin/s        0    12124    12316    14616 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:48 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2248
+15.7  7.2 ./cli mmap images/4096x4096   0 591152
+15.9  7.2 ./cli mmap images/4096x4096   1 591244
+15.9  7.2 ./cli mmap images/4096x4096   0 591204
+15.9  7.2 ./cli mmap images/4096x4096   0 591224
+16.0  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17779 codespace /usr/bin/python3 /usr/bin/s        0    12088    12281    14596 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:48 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2180
+15.6  7.2 ./cli mmap images/4096x4096   0 591152
+15.7  7.2 ./cli mmap images/4096x4096   1 591244
+15.7  7.2 ./cli mmap images/4096x4096   0 591204
+15.7  7.2 ./cli mmap images/4096x4096   0 591224
+15.8  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17785 codespace /usr/bin/python3 /usr/bin/s        0    12064    12253    14544 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:49 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2304
+15.4  7.2 ./cli mmap images/4096x4096   0 591152
+15.5  7.2 ./cli mmap images/4096x4096   1 591244
+15.5  7.2 ./cli mmap images/4096x4096   0 591204
+15.5  7.2 ./cli mmap images/4096x4096   0 591224
+15.6  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17803 codespace /usr/bin/python3 /usr/bin/s        0    12088    12282    14596 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:49 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2300
+15.2  7.2 ./cli mmap images/4096x4096   0 591152
+15.3  7.2 ./cli mmap images/4096x4096   1 591244
+15.3  7.2 ./cli mmap images/4096x4096   0 591204
+15.3  7.2 ./cli mmap images/4096x4096   0 591224
+15.4  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17814 codespace /usr/bin/python3 /usr/bin/s        0    12064    12253    14544 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:49 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2180
+15.0  7.2 ./cli mmap images/4096x4096   0 591152
+15.1  7.2 ./cli mmap images/4096x4096   1 591244
+15.1  7.2 ./cli mmap images/4096x4096   0 591204
+15.2  7.2 ./cli mmap images/4096x4096   0 591224
+15.3  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17819 codespace /usr/bin/python3 /usr/bin/s        0    12076    12264    14512 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:50 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2208
+14.8  7.2 ./cli mmap images/4096x4096   0 591152
+15.0  7.2 ./cli mmap images/4096x4096   1 591244
+15.0  7.2 ./cli mmap images/4096x4096   0 591204
+15.0  7.2 ./cli mmap images/4096x4096   0 591224
+15.1  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17824 codespace /usr/bin/python3 /usr/bin/s        0    12092    12278    14596 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589970   591204 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589973   591224 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589974   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589974   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:50 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2168
+14.6  7.2 ./cli mmap images/4096x4096   0 591152
+14.8  7.2 ./cli mmap images/4096x4096   1 591244
+14.8  7.2 ./cli mmap images/4096x4096   0 591204
+14.8  7.2 ./cli mmap images/4096x4096   0 591224
+14.9  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17836 codespace /usr/bin/python3 /usr/bin/s        0    12068    12255    14540 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:51 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2192
+14.5  7.2 ./cli mmap images/4096x4096   0 591152
+14.6  7.2 ./cli mmap images/4096x4096   1 591244
+14.6  7.2 ./cli mmap images/4096x4096   0 591204
+14.6  7.2 ./cli mmap images/4096x4096   0 591224
+14.7  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17841 codespace /usr/bin/python3 /usr/bin/s        0    12064    12236    14456 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589972   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589976   591208 
+%CPU %MEM ARGS Sat Sep 26 20:14:51 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       0  2180
+14.3  7.2 ./cli mmap images/4096x4096   0 591152
+14.5  7.2 ./cli mmap images/4096x4096   1 591244
+14.5  7.2 ./cli mmap images/4096x4096   0 591204
+14.5  7.2 ./cli mmap images/4096x4096   0 591224
+14.6  7.2 ./cli mmap images/4096x4096   1 591208
+  PID User     Command                         Swap      USS      PSS      RSS 
+17847 codespace /usr/bin/python3 /usr/bin/s        0    12084    12281    14624 
+17317 codespace ./cli mmap images/4096x4096        0   589932   589971   591204 
+17307 codespace ./cli mmap images/4096x4096        0   589936   589974   591152 
+17319 codespace ./cli mmap images/4096x4096        0   589932   589974   591224 
+17310 codespace ./cli mmap images/4096x4096        0   589936   589975   591208 
+17313 codespace ./cli mmap images/4096x4096        0   589932   589975   591244 
+%CPU %MEM ARGS Sat Sep 26 20:14:51 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2204
+14.3  3.2 ./cli mmap images/4096x4096   1 266568
+14.3  3.4 ./cli mmap images/4096x4096   1 278256
+14.4  3.4 ./cli mmap images/4096x4096   1 278216
+14.4  1.4 ./cli mmap images/4096x4096   1 113908
+14.5  1.9 ./cli mmap images/4096x4096   0 159192
+  PID User     Command                         Swap      USS      PSS      RSS 
+17852 codespace /usr/bin/python3 /usr/bin/s        0    11908    12106    14336 
+%CPU %MEM ARGS Sat Sep 26 20:14:52 UTC 2026
+ 0.0  0.0 grep --color=auto ./cli       1  2344
+  PID User     Command                         Swap      USS      PSS      RSS 
+17859 codespace /usr/bin/python3 /usr/bin/s        0    11916    12107    14376 
