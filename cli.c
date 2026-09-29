@@ -2,6 +2,68 @@
 #include <string.h>
 
 int generate_pagefault() {
+
+    const char* path = "/tmp/m5_assignment5.bin";
+    const int width = 4096;
+    const int height = 4096;
+    size_t pixel_count = (size_t) width * (size_t) height;
+
+
+    struct image image = {
+        .pixels = malloc(pixel_count, sizeof(struct pixel)),
+        .width = width,
+        .height = height
+    };
+
+    if (image.pixels == NULL) return 1;
+    if(saveimage_mmap((char*) path, &image) ! = 0) {
+
+        free(image.pixels);
+        return 1;
+
+    }
+    free(image.pixels);
+
+    int fd = open(path, O_RDONLY);
+    if (fd == -1) {
+        unlink(path);
+
+        return 1;
+    }
+
+    off_t file_size = lseek(fd, 0, SEEK_END);
+    if (file_size <=0) {
+
+        close(fd);
+        unlink(path);
+
+        return 1;
+    }
+
+    posix_fadvise(fd, 0, file_size, POSIX_FADV_DONTNEED);
+
+    void* mapped = mmap(NULL, (size_t) file_size, PROT_READ, MAP_PRIVATE, fd, 0);
+    if (mapped == MAP_FAILED) {
+
+        close(fd);
+        unlink(path);
+
+        return 1;
+    }
+
+    long page_size = sysconf(_SC_PAGESIZE);
+    volatile unsigned char value = 0;
+
+    for(size_t offset = 0; offset < (size_t) file_size; offset += (size_t) page_size) {
+
+        value ^=((volatile unsigned char*) mapped) [offset];
+
+    }
+
+    munmap(mapped, (size_t) file_size);
+    close(fd);
+    unlink(path);
+    (void) value;
     return 0;
 
 }
@@ -19,6 +81,11 @@ int main(int argc, char** argv){
         return -1;
     }
 
+    if (strcmp(argv[1], "fault") ==0) {
+
+        return generate_pagefault();
+    }
+
     int width = atoi(argv[3]);
     int height = atoi(argv[4]);
 
@@ -26,12 +93,6 @@ int main(int argc, char** argv){
 
         return 1;
     }
-
-    if (strcmp(argv[1], "fault") ==0) {
-
-        return generate_pagefault();
-}
-
     struct image input = { .pixels = NULL, .width = width, .height = height};
     struct image* output = NULL;
     int result = 1;
