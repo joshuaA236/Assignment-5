@@ -1,5 +1,8 @@
 #include "kernel.h"
 #include <string.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 int generate_pagefault() {
 
@@ -10,13 +13,13 @@ int generate_pagefault() {
 
 
     struct image image = {
-        .pixels = malloc(pixel_count, sizeof(struct pixel)),
+        .pixels = malloc(pixel_count * sizeof(struct pixel)),
         .width = width,
         .height = height
     };
 
     if (image.pixels == NULL) return 1;
-    if(saveimage_mmap((char*) path, &image) ! = 0) {
+    if(saveimage_mmap((char*) path, &image) != 0) {
 
         free(image.pixels);
         return 1;
