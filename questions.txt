@@ -1,3 +1,4 @@
-(1) log-normal-1 is 393393 PSS - to get bytes we need to take PSS x 1,024 which in our cases equals to 402,824,432 bytes.
-(2) log-normal-2 is 393386 PSS - same logic applies here we take 393386 x 1,024 = 402,827,264 bytes
-(3) What I notice is that the mmap finished a lot faster than the normal runs. Looking at the graph, mmap finished around 15 seconds and the normal run finished around 150 seconds. Also, mmap reached around 590,000 KB while the normal run hit about 400,000 KB. 
+(1) log-normal-1 shows 393393 KiB - to get bytes we need to take PSS x 1,024 which in our cases equals to 402,834,432 bytes.
+(2) log-normal-5 shows 393386 KiB - same logic applies here we take 393386 x 1,024 = 402,827,264 bytes
+(3) What I notice is that the mmap finished almost 130 seconds faster than the normal runs. Looking at the graph, mmap finished around 15 seconds and the normal run finished around 150 seconds. Also, mmap reached around 590,000 KB while the normal run hit about 400,000 KB. As we learned this week, mmaping avoids manually reading entire files into separate allocated buffer. Instead, it allows the OS to load pages as needed. For the normal runs, this doesn't happen. Instead, the image is loaded seperately for each process.   
+(4) Minor page faults happen when a process needs a page that is not mapped into a page table, but the data is avaliable in physical memory. A major page fault happens when the page that is needed  is not in physical memory and the OS then has to call the disk to load it. 
